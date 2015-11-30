@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "4.3"
   s.osx.deployment_target = "10.7"
+  s.tvos.deployment_target    = '9.0'
+  
   s.requires_arc = false
 
   s.source       = { :git => "https://github.com/advantis/ADVUserDefaults.git", :tag => "1.0.1" }
